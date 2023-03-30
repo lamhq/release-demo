@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/lamhq/release-demo/compare/v1.0.0...v1.1.0) (2023-03-30)
+
+
+### Features
+
+* minor change ([94e0df2](https://github.com/lamhq/release-demo/commit/94e0df2a937497da0cc1fc56eb2129a001c32e8f))
+
 ## 1.0.0 (2023-03-30)
 
 
