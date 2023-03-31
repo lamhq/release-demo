@@ -18,4 +18,4 @@ jobs:
           release-type: node
           package-name: release-please-action
           prerelease: true
-          default-branch: develop/*
+          default-branch: develop/sprint-1
