@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.4.0](https://github.com/lamhq/release-demo/compare/v1.3.0...v1.4.0) (2023-03-31)
+
+
+### Features
+
+* rename workflow ([a9491e1](https://github.com/lamhq/release-demo/commit/a9491e1a21a0b8c52662156aaf8ad36a0e448a20))
+
+
+### Bug Fixes
+
+* display tag name ([be55b64](https://github.com/lamhq/release-demo/commit/be55b644a19a3eafb6239663131a8fbae8d7b06d))
+* echo tag name ([30637a1](https://github.com/lamhq/release-demo/commit/30637a1a12da1fea46c25bee37c1c8effca17a8d))
+* get tag name ([6f7b35a](https://github.com/lamhq/release-demo/commit/6f7b35a29d89090efb740b5e5131e512631f8e76))
+* remove #refs/tags/ in github.ref ([5bda08b](https://github.com/lamhq/release-demo/commit/5bda08bc5fc9352fc6573fa7ccf4ee811cb57743))
+* trigger workflow when tag is created ([4a3921c](https://github.com/lamhq/release-demo/commit/4a3921c67e15d777cf5b2e91a38c17edec986e0f))
+
 ## [1.3.0](https://github.com/lamhq/release-demo/compare/v1.2.0...v1.3.0) (2023-03-31)
 
 
