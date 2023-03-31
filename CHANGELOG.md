@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/lamhq/release-demo/compare/v1.2.0...v1.3.0) (2023-03-31)
+
+
+### Features
+
+* deploy when new tag is submitted ([bdf6d84](https://github.com/lamhq/release-demo/commit/bdf6d840620ce94b433e3ed502d1e8509beec29a))
+
+
+### Bug Fixes
+
+* this should be a pre-release ([2e79165](https://github.com/lamhq/release-demo/commit/2e79165fd78d807acfa151f962c89cbd20e37e30))
+* this should be a pre-release ([b29a1d5](https://github.com/lamhq/release-demo/commit/b29a1d54d88a850fb66c9cc6ba767d548cbe4843))
+
 ## [1.2.0](https://github.com/lamhq/release-demo/compare/v1.1.0...v1.2.0) (2023-03-31)
 
 
