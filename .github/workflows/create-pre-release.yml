@@ -18,10 +18,4 @@ jobs:
           release-type: node
           package-name: release-please-action
           prerelease: true
-          default-branch: ${GITHUB_REF#refs/heads/}
-
-  print-branch-name:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print branch name
-        run: echo ${GITHUB_REF#refs/heads/}
+          default-branch: ${{ github.ref.replace('refs/heads/', '') }}
