@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy API app
 
 on:
   push:
