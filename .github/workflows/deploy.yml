@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  deploy_to_dev:
+    name: Deploy to dev
+    runs-on: ubuntu-latest
+    # environment: dev
+    # env:
+    #   AWS_REGION: us-east-2
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy
+        run: |
+          echo "The release tag is ${{ github.ref }}"
