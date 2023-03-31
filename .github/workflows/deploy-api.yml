@@ -18,4 +18,4 @@ jobs:
 
       - name: Deploy
         run: |
-          echo "The release tag is ${{ github.ref }}"
+          echo "The release tag is ${{ github.ref#refs/tags/ }}"
