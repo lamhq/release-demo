@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/lamhq/release-demo/compare/v1.1.0...v1.2.0) (2023-03-31)
+
+
+### Features
+
+* add deploy workflow ([#8](https://github.com/lamhq/release-demo/issues/8)) ([6de7d3c](https://github.com/lamhq/release-demo/commit/6de7d3cf4c8e44304fc2b64ec50784ed0de27463))
+
 ## [1.3.0](https://github.com/lamhq/release-demo/compare/v1.2.0...v1.3.0) (2023-03-31)
 
 
