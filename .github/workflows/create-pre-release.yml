@@ -20,6 +20,6 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
-          package-name: release-please-action
+          package-name: alpha-release
           prerelease: true
           default-branch: ${{ steps.branch-name.outputs.name }}
