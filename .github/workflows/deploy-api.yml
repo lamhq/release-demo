@@ -19,4 +19,4 @@ jobs:
       - name: Deploy
         run: |
           TAG_NAME="${{ github.ref }}#refs/tags/"
-          echo "The release tag is ${TAG_NAME#refs/tags/}"
+          echo "The release tag is ${TAG_NAME}"
