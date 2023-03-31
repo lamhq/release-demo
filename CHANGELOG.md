@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/lamhq/release-demo/compare/v1.2.0...v1.2.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* this should be a pre-release ([b29a1d5](https://github.com/lamhq/release-demo/commit/b29a1d54d88a850fb66c9cc6ba767d548cbe4843))
+
 ## [1.2.0](https://github.com/lamhq/release-demo/compare/v1.1.0...v1.2.0) (2023-03-31)
 
 
