@@ -19,3 +19,8 @@ jobs:
           package-name: release-please-action
           prerelease: true
           default-branch: develop/sprint-1
+  print-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print branch name
+        run: echo ${GITHUB_REF#refs/heads/}          
