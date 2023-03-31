@@ -1,7 +1,7 @@
 name: Deploy API app
 
 on:
-  push:
+  create:
     tags:
       - v*
 
