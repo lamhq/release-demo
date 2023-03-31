@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/lamhq/release-demo/compare/v1.3.0...v1.3.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* deploy workflow not visible ([6fe06fb](https://github.com/lamhq/release-demo/commit/6fe06fb339270fa259d3db3ca13afee71fe6011c))
+
 ## [1.3.0](https://github.com/lamhq/release-demo/compare/v1.2.0...v1.3.0) (2023-03-31)
 
 
