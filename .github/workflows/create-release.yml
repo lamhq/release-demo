@@ -7,10 +7,10 @@ permissions:
   contents: write
   pull-requests: write
 
-name: release-please
+name: create-release
 
 jobs:
-  release-please:
+  create-release:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3

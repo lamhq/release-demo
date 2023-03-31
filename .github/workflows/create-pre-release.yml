@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - develop/*
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: create-pre-release
+
+jobs:
+  create-pre-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get branch name
+        id: branch-name
+        run: echo "::set-output name=name::$(echo ${GITHUB_REF#refs/heads/})"
+
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: alpha-release
+          prerelease: true
+          default-branch: ${{ steps.branch-name.outputs.name }}
