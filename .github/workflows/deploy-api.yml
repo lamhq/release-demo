@@ -23,4 +23,4 @@ jobs:
         run: echo "${GITHUB_REF##*/}"
 
       - name: Display env variable
-        run: echo "${{ env.REDIS_HOST }}"
+        run: echo "${{ vars.REDIS_HOST }}"
