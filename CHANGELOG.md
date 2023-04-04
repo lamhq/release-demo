@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.0](https://github.com/lamhq/release-demo/compare/v1.4.0...v1.5.0) (2023-04-04)
+
+
+### Features
+
+* add pull request check ([#14](https://github.com/lamhq/release-demo/issues/14)) ([f11cc0e](https://github.com/lamhq/release-demo/commit/f11cc0ea8eb0598edf2c0cbba8d72037e78bd317))
+* allow release action to trigger deploy aciton ([7ae67d1](https://github.com/lamhq/release-demo/commit/7ae67d156b974a673f1b21593a83c1c0455cde3c))
+
+
+### Bug Fixes
+
+* test deploy workflow ([#16](https://github.com/lamhq/release-demo/issues/16)) ([9bb33c0](https://github.com/lamhq/release-demo/commit/9bb33c0e6c28c017be5bda9c96af298e891260ab))
+
 ## [1.4.0](https://github.com/lamhq/release-demo/compare/v1.3.0...v1.4.0) (2023-03-31)
 
 
