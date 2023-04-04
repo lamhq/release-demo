@@ -17,5 +17,5 @@ jobs:
         with:
           release-type: node
           package-name: production-release
-          pull-request-header: Submit a new production release
           token: ${{ secrets.RELEASE_TOKEN }}
+          pull-request-header: Submit a new production release

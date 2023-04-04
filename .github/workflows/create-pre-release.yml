@@ -23,3 +23,5 @@ jobs:
           package-name: alpha-release
           prerelease: true
           default-branch: ${{ steps.branch-name.outputs.name }}
+          token: ${{ secrets.RELEASE_TOKEN }}
+          pull-request-header: Submit a new alpha release
