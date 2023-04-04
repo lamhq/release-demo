@@ -6,15 +6,20 @@ on:
       - v*
 
 jobs:
-  deploy_to_dev:
-    name: Deploy to dev
+  deploy:
+    name: Deploy to ${{ matrix.environment }}
     runs-on: ubuntu-latest
-    # environment: dev
-    # env:
-    #   AWS_REGION: us-east-2
+    strategy:
+      matrix:
+        environment: [dev, staging]
+    env:
+      AWS_REGION: us-east-2
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
 
       - name: Deploy
         run: echo "${GITHUB_REF##*/}"
+
+      - name: Display secret
+        run: echo "${{ secrets.AWS_ACCESS_KEY_ID }}"
