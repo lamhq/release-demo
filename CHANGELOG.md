@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.6.0](https://github.com/lamhq/release-demo/compare/v1.5.0...v1.6.0) (2023-04-06)
+
+
+### Features
+
+* thí should create a prerelease ([7c376d6](https://github.com/lamhq/release-demo/commit/7c376d6d0b1e911633735ad10a673cc0bef6cc5b))
+
+
+### Bug Fixes
+
+* revert back prerelease config to boolean ([9039390](https://github.com/lamhq/release-demo/commit/90393909d85b791fca67015303924a02e94ddaf5))
+* try to make alpha version ([2f1cf59](https://github.com/lamhq/release-demo/commit/2f1cf59928a2d4eed2bb3ead8bf6b0f6c69cfff6))
+
 ## [1.5.0](https://github.com/lamhq/release-demo/compare/v1.4.0...v1.5.0) (2023-04-04)
 
 
